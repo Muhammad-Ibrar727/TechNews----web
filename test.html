@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portion2</title>
+    <style>
+        .main_portion {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-gap: 1rem;
+            position: relative;
+
+        }
+
+        .box {
+
+            position: relative;
+            height: 500px;
+            width: 30%;
+
+            width: 90%;
+        }
+
+        #box1::before {
+            content: "";
+            background: url("images/grd-img1.jpg") no-repeat center center/cover;
+            opacity: 0.6;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #box2::before {
+            content: "";
+            background: url("images/grd-img2.jpg") no-repeat center center/cover;
+            opacity: 0.6;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #box2::before {
+            content: "";
+            background: url("images/grd-img3.jpg") no-repeat center center/cover;
+            opacity: 0.3;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #box3::before {
+            content: "";
+            background: url("images/grd-img4.jpg") no-repeat center center/cover;
+            opacity: 0.3;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #box4::before {
+            content: "";
+            background: url("images/grd-img5.jpg") no-repeat center center/cover;
+            opacity: 0.3;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #box5::before {
+            content: "";
+            background: url("images/grd-img6.jpg") no-repeat center center/cover;
+            opacity: 0.3;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #box6::before {
+            content: "";
+            background: url("images/grd-img2.2.jpg") no-repeat center center/cover;
+            opacity: 0.6;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        p {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_portion">
+        <div class="box" id="box1">
+            <h1>This is the box 1</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis commodi praesentium, temporibus
+                dicta quaerat maxime impedit nostrum nulla inventore nesciunt voluptatem et consequuntur amet
+                laboriosam, provident cumque, sequi autem assumenda.</p>
+        </div>
+        <div class="box" id="box2">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis commodi praesentium, temporibus
+                dicta quaerat maxime impedit nostrum nulla inventore nesciunt voluptatem et consequuntur amet
+                laboriosam, provident cumque, sequi autem assumenda.</p>
+        </div>
+        <div class="box" id="box3">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis commodi praesentium, temporibus
+                dicta quaerat maxime impedit nostrum nulla inventore nesciunt voluptatem et consequuntur amet
+                laboriosam, provident cumque, sequi autem assumenda.</p>
+        </div>
+        <div class="box" id="box4">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis commodi praesentium, temporibus
+                dicta quaerat maxime impedit nostrum nulla inventore nesciunt voluptatem et consequuntur amet
+                laboriosam, provident cumque, sequi autem assumenda.</p>
+        </div>
+        <div class="box" id="box5">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis commodi praesentium, temporibus
+                dicta quaerat maxime impedit nostrum nulla inventore nesciunt voluptatem et consequuntur amet
+                laboriosam, provident cumque, sequi autem assumenda.</p>
+        </div>
+        <div class="box" id="box6">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis commodi praesentium, temporibus
+                dicta quaerat maxime impedit nostrum nulla inventore nesciunt voluptatem et consequuntur amet
+                laboriosam, provident cumque, sequi autem assumenda.</p>
+        </div>
+    </div>
+</body>
+
+</html>
