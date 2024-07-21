@@ -17,6 +17,6 @@ TechNews is a website providing the latest updates and insights into various tec
 - CSS
 
 ## Screenshots
-
+Screenshot varies for screen size
 ![Full Screenshot](screenshot/screenshot.png)
 
