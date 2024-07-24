@@ -177,7 +177,7 @@
     
     #box1::before {
     content: "";
-    background: url("images/grd-img1(1).jpg") no-repeat center center/cover;
+    background: url("images/grd-img1.jpg") no-repeat center center/cover;
     opacity: 0.9;
     z-index: 0;
     position: absolute;
@@ -191,7 +191,7 @@
     
     #box2::before {
     content: "";
-    background: url("images/grd-img2(1).jpg") no-repeat center center/cover;
+    background: url("images/grd-img2.jpg") no-repeat center center/cover;
     opacity: 0.6;
     z-index: 0;
     position: absolute;
@@ -205,7 +205,7 @@
     
     #box2::before {
     content: "";
-    background: url("images/grd-img3(1).jpg") no-repeat center center/cover;
+    background: url("images/grd-img3.jpg") no-repeat center center/cover;
     opacity: 0.9;
     z-index: 0;
     position: absolute;
@@ -219,7 +219,7 @@
     
     #box3::before {
     content: "";
-    background: url("images/grd-img4(1).jpg") no-repeat center center/cover;
+    background: url("images/grd-img4.jpg") no-repeat center center/cover;
     opacity: 0.9;
     z-index: 0;
     position: absolute;
@@ -233,7 +233,7 @@
     
     #box4::before {
     content: "";
-    background: url("images/grd-img5(1).jpg") no-repeat center center/cover;
+    background: url("images/grd-img5.jpg") no-repeat center center/cover;
     opacity: 0.7;
     z-index: 0;
     position: absolute;
@@ -247,7 +247,7 @@
     
     #box5::before {
     content: "";
-    background: url("images/grd-img6(1).jpg") no-repeat center center/cover;
+    background: url("images/grd-img6.jpg") no-repeat center center/cover;
     opacity: 0.9;
     z-index: 0;
     position: absolute;
@@ -261,7 +261,7 @@
     
     #box6::before {
     content: "";
-    background: url("images/grd-img2(1).jpg") no-repeat center center/cover;
+    background: url("images/grd-img2.jpg") no-repeat center center/cover;
     opacity: 0.9;
     z-index: 0;
     position: absolute;
